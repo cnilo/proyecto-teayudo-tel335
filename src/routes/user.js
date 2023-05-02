@@ -1,10 +1,24 @@
 const express = require("express");
+const User = require("../models/user");
 
 const router = express.Router();
 
-// TEST API
-router.get('/user', (req, res) => {
-    res.send("create user");
+// CREATE
+router.post('/user', (req, res) => {
+    const user = User(req.body);
+    user
+    .save()
+    .then((data) => res.json(data))
+    .catch((error) => res.json({ message: error}));
 });
+
+// GET ALL
+router.get('/user', (req, res) => {
+    User
+    .find()
+    .then((data) => res.json(data))
+    .catch((error) => res.json({ message: error}));
+});
+
 
 module.exports = router;
