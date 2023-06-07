@@ -1,5 +1,7 @@
 const express = require("express");
 const userRoutes = require("./routes/user");
+const questionRoutes = require("./routes/question");
+const answerRoutes = require("./routes/answer");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
@@ -16,5 +18,7 @@ mongoose
 // middleware
 app.use(express.json());
 app.use("/api", userRoutes);
+app.use("/api", questionRoutes);
+app.use("/api", answerRoutes);
 
 app.listen(port, () => console.log('server listening on port', port));
