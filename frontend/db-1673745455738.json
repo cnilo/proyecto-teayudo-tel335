@@ -1,0 +1,55 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Vicente",
+      "apellido": "Llanos",
+      "email": "vicente@okylife.cl",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+    },
+    {
+      "id": 2,
+      "nombre": "Cristóbal",
+      "apellido": "Nilo",
+      "email": "cristobal@okylife.cl",
+      "password": "e807f1fcf82d132f9bb018ca6738a19f"
+    }
+  ],
+  "preguntas": [
+    {
+      "id_pregunta": 1,
+      "autor": "Vicente",
+      "pregunta": "Cómo puedo mejorar mi físico sin consumir la proteína diaria necesaria?",
+      "email_autor": "vicente@okylife.cl"
+    },
+    {
+      "id_pregunta": 2,
+      "autor": "Cristóbal",
+      "pregunta": "Qué se debe hacer si tomo solamente 200ml de agua al día?",
+      "email_autor": "cristobal@okylife.cl"
+    },
+    {
+      "id_pregunta": 3,
+      "autor": "Romina",
+      "pregunta": "Estás oky?",
+      "email_autor": "romina@okylife.cl"
+    }
+  ],
+  "respuestas": [
+    {
+      "id_respuesta": 1,
+      "autor_respuesta": "Pedro",
+      "email_nutri": "vicente@okylife.cl"
+    },
+    {
+      "id_respuesta": 2,
+      "autor_respuesta": "Miguel",
+      "email_nutri": "miguel@okylife.cl"
+    },
+    {
+      "id_respuesta": 1,
+      "autor_respuesta": "Celeste",
+      "email_nutri": "celeste@okylife.cl"
+    }
+  ]
+}

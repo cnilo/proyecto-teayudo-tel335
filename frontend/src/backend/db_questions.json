@@ -1,0 +1,30 @@
+[
+
+    {
+        "nombre": "Vicente",
+        "apellido": "Llanos",
+        "email": "vicente@okylife.cl",
+        "telefono": "+56956674897",
+        "pregunta": "¿Cuánta proteína necesito comer al día para ganar masa muscular??",
+        "id": 1
+      },
+      {
+        "nombre": "Romina",
+        "apellido": "Perrotta",
+        "email": "romina@okylife.cl",
+        "telefono": "+56956674897",
+        "pregunta": "¿Qué es lo necesario para ser fit?",
+        "id": 2
+      },
+      {
+        "nombre": "Vicente",
+        "apellido": "Llanos",
+        "email": "vicente@okylife.cl",
+        "telefono": "+56956674897",
+        "pregunta": "¿Puedo comer 14 huevos al día?",
+        "id": 3
+      }
+
+
+]
+

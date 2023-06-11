@@ -1,0 +1,52 @@
+{
+  "usuarios":[
+    {
+      "id": 1,
+      "nombre": "Vicente",
+      "apellido": "Llanos",
+      "email": "vicente@okylife.cl",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+    },
+    {
+      "id": 2,
+      "nombre": "Cristóbal",
+      "apellido": "Nilo",
+      "email": "cristobal@okylife.cl",
+      "password": "e807f1fcf82d132f9bb018ca6738a19f"
+    },
+    {
+      "nombre": "Rocío",
+      "apellido": "Parraguez",
+      "email": "rocio@okylife.cl",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b",
+      "id": 3
+    },
+    {
+      "nombre": "Miguel",
+      "apellido": "Perrotta",
+      "email": "miguel@okylife.cl",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b",
+      "id": 4
+    },
+    {
+      "nombre": "Vicente",
+      "apellido": "Llanos",
+      "email": "vicenteandress60@gmail.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "confirmPassword": "e10adc3949ba59abbe56e057f20f883e",
+      "id": 5
+    },
+    {
+      "nombre": "federico",
+      "apellido": "Carreño",
+      "email": "federico@gmail.com",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b",
+      "confirmPassword": "827ccb0eea8a706c4c34a16891f84e7b",
+      "id": 6
+    }
+  ],
+  "nada":
+  {
+    "nada":"nada"
+  }
+}
