@@ -2,8 +2,8 @@
   "name": "Teayudo",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd front && npm install && npm run build",
-    "start": "cd back && npm install && npm start"
+    "build": "cd Frontend && npm install && npm run build",
+    "start": "cd ../Backend && npm install && npm start"
   },
   "engines": {
     "node": "20.3.1"
